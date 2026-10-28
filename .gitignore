@@ -1,0 +1,18 @@
+
+
+
+# SSH private keys
+*.pem
+*.key
+private_subnet_kp.pem
+bastion_host_kp.pem
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+credentials
+.aws/
+
+# Local files
+.DS_Store
